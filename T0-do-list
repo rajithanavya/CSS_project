@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-color: rgb(141, 160, 218);
+            font-family: Arial, sans-serif;
+            margin: 40px;
+        }
+        h1 {
+            color: #333;
+        }
+
+        .high {
+            background-color: #ff8cc4;
+        }
+
+        .medium {
+            background-color: #f1db60;
+        }
+
+        .low {
+            background-color: #6de16d;
+        }
+
+        th {
+            background-color: palevioletred;
+            font-size: 18px;
+        }
+        
+        input[type="checkbox"] {
+            margin-left: 20px;
+        }
+        .hide-bg {
+    mix-blend-mode: multiply;
+    filter: contrast(1);
+    width: 650px;
+    height: 500px;
+    display: flex;
+    justify-content: flex-end;
+    top: 100px;
+    padding-left: 0px;
+    margin-top: 700px;
+    position: absolute;
+    bottom: 20px;
+    right: 0px;
+}   
+.hide-bg1 {
+    mix-blend-mode: multiply;
+    filter: contrast(1);
+    width: 350px;
+    height: 450px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 600px;
+    position: absolute;
+    bottom: 20px;
+} 
+table {
+      width: 95%;
+      padding-left: 100px;
+      padding-right: 80px;
+      border-collapse: separate;
+      border-spacing: 0 10px;
+      margin-top: 20px;
+    }
+
+    th, td {
+      border: 0px solid #ddd;
+      padding: 12px;
+      text-align: left;
+    
+    }
+
+    </style>
+    <title>To-Do-List</title>
+</head>
+<body>
+    <div>
+    <h1>GROCERIES LIST</h1><br>
+    <img src="C:\Users\makhi\Downloads\z3.jpeg" class="hide-bg1">
+    <img src="C:\Users\makhi\OneDrive\Pictures\Screenshots\z6.jpeg" class="hide-bg">
+    <table>
+        <thead>
+        <tr>
+        <th></th>
+        <th>SI.NO</th>
+        <th>ITEM</th>
+        <th>QUANTITY</th>
+        <th>PRIORITY</th>
+        <th>EXPIRY DATE </th>                                                                                                                                                         </span>
+        </tr>
+        </thead>
+        <tbody>
+    
+        <tr class="high">
+            <td><input type="checkbox"></td>
+            <td>1.</td>
+            <td>RICE</td>
+            <td>25kg</td>
+            <td>HIGH</td>
+            <td>15-10-2023</td>
+            </tr>
+                                                                                                       
+        <tr class="medium">
+            <td><input type="checkbox"></td>
+            <td>2.</td>
+            <td>SUGAR</td>
+            <td>3kg</td>
+            <td>MEDIUM</td>
+            <td>19-08-2024</td>
+        </tr>
+        
+        <tr class="low">
+            <td><input type="checkbox"></td>
+            <td>3.</td>
+            <td>SALT</td>
+            <td>1kg</td>
+            <td>LOW</td>
+            <td>16-06-2025</td>
+        </tr>
+
+        <tr class="medium">
+            <td><input type="checkbox"></td>
+            <td>4.</td>
+            <td>CHILLI POWDER</td>
+            <td>1kg</td>
+            <td>MEDIUM</td>
+            <td>12-02-2023</td>
+        </tr>
+
+        <tr class="high">
+            <td><input type="checkbox"></td>
+            <td>5.</td>
+            <td>MILK PACKETS</td>
+            <td>8pac</td>
+            <td>HIGH</td>
+            <td>29-11-2023</td>
+        </tr>
+
+        <tr class="high">
+            <td><input type="checkbox"></td>
+            <td>6.</td>
+            <td>CEREALS</td>
+            <td>1kg</td>
+            <td>HIGH</td>
+            <td>19-04-2024</td>
+        </tr> 
+
+        <tr class="medium">
+            <td><input type="checkbox"></td>
+            <td>7.</td>
+            <td>JAGGERY</td>
+            <td>500gm</td>
+            <td>MEDIUM</td>
+            <td>20-12-2024</td>
+        </tr>  
+
+        <tr class="medium">
+            <td><input type="checkbox"></td>
+            <td>8.</td>
+            <td>TAMARIND</td>
+            <td>100gm</td>
+            <td>MEDIUM</td>
+            <td>27-05-2023</td>
+        </tr>  
+
+        <tr class="low">
+            <td><input type="checkbox"></td>
+            <td>9.</td>
+            <td>MAGGI</td>
+            <td>10pac</td>
+            <td>LOW</td>
+            <td>17-02-2024</td>
+        </tr>   
+
+        <tr class="high">
+            <td><input type="checkbox"></td>
+            <td>10.</td>
+            <td>OIL PACKETS</td>
+            <td>1litre</td>
+            <td>HIGH</td>
+            <td>22-12-2023</td>
+        </tr> 
+
+        <tr class="medium">
+            <td><input type="checkbox"></td>
+            <td>11.</td>
+            <td>BAKING SODA</td>
+            <td>100gm</td>
+            <td>MEDIUM</td>
+            <td>23-08-2025</td>
+        </tr>   
+
+        <tr class="medium">
+            <td><input type="checkbox"></td>
+            <td>12.</td>
+            <td>GHEE</td>
+            <td>500g</td>
+            <td>MEDIUM</td>
+            <td>23-12-2024</td>
+        </tr>
+
+        <tr class="high">
+            <td><input type="checkbox"></td>
+            <td>13.</td>
+            <td>VEGETABLES</td>
+            <td>1kg</td>
+            <td>HIGH</td>
+            <td>25-11-2023</td>
+        </tr>   
+
+        <tr class="low">
+            <td><input type="checkbox"></td>
+            <td>14.</td>
+            <td>OATS</td>
+            <td>2pac</td>
+            <td>LOW</td>
+            <td>16-01-2025</td>
+        </tr> 
+
+        <tr class="high">
+            <td><input type="checkbox"></td>
+            <td>15.</td>
+            <td>MASALA PACKETS</td>
+            <td>5pac</td>
+            <td>HIGH</td>
+            <td>30-12-2024</td>
+        </tr>  
+
+        <tr class="medium">
+            <td><input type="checkbox" id="task1"></td>
+            <td>16.</td>
+            <td>CRYSTAL SALT</td>
+            <td>1pac</td>
+            <td>MEDIUM</td>
+            <td>10-05-2023</td>
+        </tr>  
+
+        <tr class="low">
+            <td><input type="checkbox" id="task1"></td>
+            <td>17.</td>
+            <td>CHOCOLATES</td>
+            <td>15</td>
+            <td>LOW</td>
+            <td>09-07-2025</td>
+            </tr> 
+
+        <tr class="high">
+            <td><input type="checkbox" id="task1"></td>
+            <td>18.</td>
+            <td>SPICES</td>
+            <td>100gm</td>
+            <td>HIGH</td>
+            <td>11-11-2023</td>
+        </tr> 
+
+        <tr class="medium">
+            <td><input type="checkbox" id="task1"></td>
+            <td>19.</td>
+            <td>FLOUR</td>
+            <td>2kg</td>
+            <td>MEDIUM</td>
+            <td>19-06-2024</td>
+        </tr>  
+
+        <tr class="low">
+            <td><input type="checkbox" id="task1"></td>
+            <td>20.</td>
+            <td>BISCUITS</td>
+            <td>10pac</td>
+            <td>LOW</td>
+            <td>28-11-2023</td>
+        </tr>        
+ </div>
+</tbody>
+</table>
+    </body>
+</html>
